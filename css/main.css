@@ -1,48 +1,46 @@
-body{
-    background-color: #eceff0;
+body {
+    background-color:#eceff0;
 }
 
-body,input{
+body, 
+input {
     font:1em "Open Sans", sans-serif;
-    color: #363630;
+    color:#363639;
 }
 
-a{
+a {
     text-decoration: none;
-    border-bottom: 1px dashed #363639;
+    border-bottom:1px dashed #363639;
 }
 
-
-/* Lista */
-
-.lista{
+/* List */
+.list {
     background-color: #fff;
     margin:20px auto;
-    width: 100%;
-    max-width: 500px;
+    width:100%;
+    max-width:500px;
     padding:20px;
     border-radius:2px;
-    box-shadow:3px 3px 0 rgba(0, 0, 0, 1);
+    box-shadow:3px 3px 0 rgba(0, 0, 0, .1);
     box-sizing: border-box;
 }
 
-.lista .cabeza {
+.list .header {
     font-family: "Shadows Into Light Two", cursive;
-    margin: 0 0 10px 0;
+    margin:0 0 10px 0;
 }
 
-/*Items*/
-.items{
+/* Items */
+
+.items {
     margin:0;
     padding:0;
-    list-style-type: none;
+    list-style-type:none;
 }
 
-.items li:hover .done-button {
+.items li:hover .done-button{
     opacity:1;
 }
-
-
 
 .items .item.done{
     text-decoration:line-through;
@@ -51,7 +49,7 @@ a{
 .items li,
 .item-add .input {
     border:0;
-    border-bottom: 1px dashed #ccc;
+    border-bottom:1px dashed #ccc;
     padding: 15px 0;
 }
 
@@ -60,27 +58,29 @@ a{
 }
 
 .input:focus{
-    outline: none;
+    outline:none;
 }
 
-/*Done Button*/
-.done-button {
+/*Done button */
+
+.done-button{
     display:inline-block;
-    font-size: 0.8em;
-    background-color: #d9dfe1;;
+    font-size:0.8em;
+    background-color:#d9dfe1;
     color:#363639;
-    padding: 3px 6px;
+    padding:3px 6px;
     border:0;
     opacity:0.4;
 }
 
-/*Submit Button*/
 
-.submit {
+/*Submit button*/
+
+.submit{
     background-color: #fff;
-    padding: 5px 10px;
-    border: 1px solid #ddd;
+    padding:5px 10px;
+    border:1px solid #ddd;
     width:100%;
-    margin-top: 10px;
+    margin-top:10px;
     box-shadow: 3px 3px 0 #ddd;
 }
